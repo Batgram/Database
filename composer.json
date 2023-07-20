@@ -1,0 +1,22 @@
+{
+    "name": "iliyagholami/database",
+    "description": "An async query builder",
+    "type": "library",
+    "require": {
+        "amphp/amp": "^3.0",
+        "amphp/mysql": "^3.0"
+    },
+    "license": "AGPL-3.0-only",
+    "autoload": {
+        "psr-4": {
+            "IliyaGholami\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Iliya Gholami",
+            "email": "OctalDev313@gmail.com"
+        }
+    ],
+    "minimum-stability": "beta"
+}
